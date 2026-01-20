@@ -260,8 +260,17 @@
   .gap-7 {
     gap: calc(var(--spacing) * 7);
   }
+  .gap-10 {
+    gap: calc(var(--spacing) * 10);
+  }
   .gap-\[10_0\] {
     gap: 10 0;
+  }
+  .gap-\[10px_0\] {
+    gap: 10px 0;
+  }
+  .gap-\[20px_0\] {
+    gap: 20px 0;
   }
   .gap-\[50px_0\] {
     gap: 50px 0;
