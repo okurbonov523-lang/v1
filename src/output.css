@@ -179,17 +179,14 @@
   .mt-\[100px\] {
     margin-top: 100px;
   }
-  .mt-\[120px\] {
-    margin-top: 120px;
-  }
-  .mt-auto {
-    margin-top: auto;
-  }
   .mr-auto {
     margin-right: auto;
   }
   .mb-\[10px\] {
     margin-bottom: 10px;
+  }
+  .mb-\[15px\] {
+    margin-bottom: 15px;
   }
   .mb-\[20px\] {
     margin-bottom: 20px;
@@ -218,20 +215,23 @@
   .h-\[501px\] {
     height: 501px;
   }
+  .h-\[710px\] {
+    height: 710px;
+  }
   .h-\[800px\] {
     height: 800px;
   }
   .w-\[24\%\] {
     width: 24%;
   }
+  .w-\[32\%\] {
+    width: 32%;
+  }
   .w-\[48\%\] {
     width: 48%;
   }
   .w-\[80\%\] {
     width: 80%;
-  }
-  .w-\[90\%\] {
-    width: 90%;
   }
   .w-full {
     width: 100%;
@@ -241,9 +241,6 @@
   }
   .resize {
     resize: both;
-  }
-  .flex-col {
-    flex-direction: column;
   }
   .flex-wrap {
     flex-wrap: wrap;
@@ -260,6 +257,21 @@
   .gap-7 {
     gap: calc(var(--spacing) * 7);
   }
+  .gap-10 {
+    gap: calc(var(--spacing) * 10);
+  }
+  .gap-\[10_0\] {
+    gap: 10 0;
+  }
+  .gap-\[10px_0\] {
+    gap: 10px 0;
+  }
+  .gap-\[20px_0\] {
+    gap: 20px 0;
+  }
+  .gap-\[50px_0\] {
+    gap: 50px 0;
+  }
   .rounded-\[10px\] {
     border-radius: 10px;
   }
@@ -271,14 +283,8 @@
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
-  .border-\[\#A3E0E8\] {
-    border-color: #A3E0E8;
-  }
   .bg-\[\#35AFBF\] {
     background-color: #35AFBF;
-  }
-  .bg-\[\#A3E0E8\] {
-    background-color: #A3E0E8;
   }
   .bg-\[\#D1F4F9\] {
     background-color: #D1F4F9;
@@ -286,29 +292,8 @@
   .bg-\[\#F3FEFF\] {
     background-color: #F3FEFF;
   }
-  .bg-\[url\] {
-    background-color: url;
-  }
-  .bg-\[url\(\)\] {
-    background-image: url();
-  }
-  .bg-\[url\(\.\/\)\] {
-    background-image: url(./);
-  }
   .bg-\[url\(\.\/img\/Background\.png\)\] {
     background-image: url(./img/Background.png);
-  }
-  .bg-\[url\(\.\/src\/img\)\] {
-    background-image: url(./src/img);
-  }
-  .bg-\[url\(\.\/src\/img\/Back\)\] {
-    background-image: url(./src/img/Back);
-  }
-  .bg-\[url\(\.\/src\/img\/Background\.png\)\] {
-    background-image: url(./src/img/Background.png);
-  }
-  .bg-\[url\(\.\/src\/img\/Backround\)\] {
-    background-image: url(./src/img/Backround);
   }
   .p-\[15px_30px\] {
     padding: 15px 30px;
@@ -324,9 +309,6 @@
   }
   .text-\[16px\] {
     font-size: 16px;
-  }
-  .text-\[18px\] {
-    font-size: 18px;
   }
   .text-\[21px\] {
     font-size: 21px;
