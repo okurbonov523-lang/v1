@@ -182,11 +182,17 @@
   .mr-auto {
     margin-right: auto;
   }
+  .mb-\[10px\] {
+    margin-bottom: 10px;
+  }
   .mb-\[20px\] {
     margin-bottom: 20px;
   }
   .mb-\[30px\] {
     margin-bottom: 30px;
+  }
+  .mb-\[35px\] {
+    margin-bottom: 35px;
   }
   .ml-auto {
     margin-left: auto;
@@ -245,6 +251,10 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
   }
   .border-\[\#A3E0E8\] {
     border-color: #A3E0E8;
